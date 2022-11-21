@@ -1,0 +1,134 @@
+#body{
+    width: 100%;
+    height: auto;
+    margin-top: 80px;
+    bgc
+}
+#head_1{
+    font-family: 'PT Serif', serif;
+    font-weight: 700;
+    font-size: 36px;
+}
+.head_2{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 27px;
+    color: #000000 !important;
+    
+}
+.p_1{
+    max-width: 439px;
+    margin-bottom: 96px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 27px;
+    color: #000000;
+    
+}
+img{
+   width: 238px;
+}
+.col_emp_det{
+    opacity: 60%;
+    transition-property: all;
+    transition-duration: 1s;
+    transition-timing-function: ease-in-out;
+}
+.col_emp_det:hover{
+    opacity: 100%;
+}
+#emp_img_5, #col_2{
+    margin-top: 100px;
+ }
+ .designation_2{
+    margin-top: 100px;
+ }
+.emp_name{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 27px;
+    color: #000000;
+    margin-top: 15px;
+    transition-property: all;
+    transition-duration: 1s;
+    transition-timing-function: ease-in-out;
+}
+.emp_name:hover{
+    color: gray;
+    letter-spacing: 1px;
+    cursor: pointer;
+    
+}
+.designation{
+    position: absolute; 
+    display: inline;
+    writing-mode: vertical-rl;
+    font-family: 'PT Serif', serif;
+    font-weight: 400;
+    font-size: 12px;
+    text-transform: uppercase;
+    
+}
+@media only screen and (max-width:999px){
+    img{
+        width: 200px;
+     }
+    
+}
+
+@media only screen and (max-width: 768px) {
+    .body{
+        margin-top: 71px;
+        margin-left: 0;
+        margin-right: 0;
+    }
+    .head_1{
+        font-weight: 700;
+        font-size: 36px;
+        
+    }
+    .head_2{
+
+        margin-top: 38px;
+    }
+    .p_1{
+        max-width: 333px;
+        margin-top: 10px;
+        font-size: 14px;
+        line-height: 21px;
+        color: #000000;
+    }
+    img{
+        width: 160px;
+     }
+
+    .emp_name{
+    font-size: 14px;
+    line-height: 21px;
+    color: #000000;
+    margin-top: 10px;
+}
+.designation{
+    font-weight: 400;
+    font-size: 10px;
+}
+#emp_img_5{
+    margin-top: 0;
+}
+#col_2, #col_4, #col_6{
+    margin-top: 60px;
+}
+}
+@media only screen and (max-width: 544px){
+    img{
+        width: 139px;
+    }
+}
+@media only screen and (max-width: 300px){
+    img{
+        width: 100px;
+    }
+} 
